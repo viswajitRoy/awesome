@@ -1,0 +1,377 @@
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
+	
+	
+	
+	
+}
+/*===--End of Media min-resolution: 192dpi--==*/
+
+
+
+@media (max-width:1920px) {
+	
+	
+	
+
+}
+/*===--End of Media max-width:1920px--==*/
+
+
+
+@media (min-width:768px) and (max-width:1024px) {
+	
+    
+    .productHeader {
+        background: #cc99ff url("../images/slider-img1.png") no-repeat scroll right 20px top 30px / 600px auto;
+    }
+    
+    .productTitle {
+        margin-top: 530px;
+    }
+    
+    .contact-wrapper {
+        padding-bottom: 55px;
+    }
+        
+}
+/*===--End of Media max-width:1024px--==*/
+
+
+
+
+@media (max-width:991px) {
+	
+    
+    .productDetails {
+        margin-bottom: 35px;
+    }
+	
+    .proDuctSlider {
+        margin-bottom: -80px;
+    }
+    
+    .strategyContent {
+        padding: 100px 0 0;
+    }
+    
+    .strategyPara {
+        margin-bottom: 60px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+/*===--End of Media max-width-991px--==*/
+
+
+
+@media (min-width:768px) {
+	
+	.mb-show {
+		display:none !important;		
+	}
+		
+	
+	
+}
+/*===--End of Media min-width:768px--==*/
+
+
+
+
+@media (max-width:767px) {
+	
+	.mb-hide {
+		display:none !important;			
+	}
+	
+	.mb-show {
+		display:block !important;		
+	}
+		
+	
+	
+}
+/*===--End of Media max-width-767px--==*/
+
+
+
+
+
+@media (max-width:640px) {
+	
+	.productHeader {
+        background: #cc99ff url("../images/slider-img1.png") no-repeat scroll right -60px top 55px / 300px auto;
+    }
+    
+    .proDuctSlider {
+        margin-bottom: -125px;
+    }
+		
+	.productTitle {
+        margin-top: 415px;
+        margin-bottom: 15px;
+    }
+    
+    .productDetails {
+        margin-bottom: 50px;
+    }
+    
+    .logo-outline {
+        margin-left: 0;
+    }
+	
+    .productHeader {
+        padding: 22px 15px 0;
+    }
+    
+    .strategyPara {
+        margin-bottom: 50px;
+        margin-top: 15px;
+    }
+    
+    .strategyList {
+        margin: 23px 0 48px;
+    }
+    
+    .teamHeader {
+        margin-bottom: 50px;
+    }
+    	
+	.team-wrapper {
+		padding: 0 15px;
+	}
+	
+	.teamTitleText {
+		min-height:150px;
+	}
+	
+	.team-wrapper .team-content h3 {
+		margin-bottom: 15px;
+		font-size:18px;
+		line-height:24px;
+	}
+	
+	.team-content .team-img {
+		position: relative;
+		margin:25px 0 80px;
+	}
+	
+	.team-content .team-img .team-social {
+		position: absolute;
+		height: 64px;
+		width: 64px;
+		background: #fff;
+		top: 0;
+		right: 0;
+	}
+	
+	.team-content .team-img .team-social a {
+		position: absolute;
+		left: 1px;
+		bottom: 8px;
+	}
+	
+	.team-content .team-img .team-social a i {
+		font-size: 29px;
+	}
+    
+    .teamBody {
+        min-height: initial;
+    }
+		
+    .teamBodyText {
+        margin-top: 30px;
+    }
+    
+    .team-wrapper.contact-wrapper {
+        padding-bottom: 20px;
+    }
+    
+    .contactForm .form-group img {
+        width: 9%;
+    }
+    
+    .formInput {
+        width: 87%;
+    }
+    
+	.weSpecialize {
+		margin: 250px 26px 115px;
+	}
+	
+	.specializeLink {
+    	margin: 0 0 200px;
+	}
+    
+	.workSliderWrap .workSliderItem {
+		padding-bottom: 40px;
+		padding-top: 60px;
+	}
+	
+	.getResultSliderItem.slick-slide {
+		height:666px;		
+	}
+	
+	.getResultSliderItem .container {
+		padding:0;		
+	}
+	
+	.getResultSliderText {
+		margin-top:32px;
+		padding:0 30px;
+		font:normal 18px/24px 'TisaPro';		
+	}
+	
+	.getResultSliderImgWrap.videoWrap {
+		width:100%;		
+	}
+	
+	.getResultSliderImgWrap.videoWrap img {
+		top:30px;
+		left:30px;
+	}
+	
+	.getResultSliderImgWrap {
+		margin:50px 0 60px;
+	}
+	
+	.getResultSliderImgWrap img {
+		width:100%;		
+	}
+	
+	.projectSlider {
+		padding:0 30px;
+		min-height:666px;	
+	}
+	
+	.projectSlider .productItem a {
+		background:#f00;
+	}
+	
+	
+	.projectSlider .productItem img {
+		max-width:100%;
+	}
+	
+	.productSliderText {
+		margin-top:30px;
+		margin-bottom:60px;	
+	}
+	
+	.productItem {
+		min-height: initial;
+	}
+	
+	.teamLeft,
+	.teamRight {
+		padding:0 30px;		
+	}
+	
+	.teamBodyText {
+		font-size:18px;
+		line-height:24px;
+		max-width: initial;
+	}
+	
+	.teamLink {
+		margin-bottom:30px;		
+	}
+	
+	.menu li a {
+		font-size:24px;
+		line-height:40px;
+	}
+	
+	.proDuctSlider .slick-next {
+		right: 0px;
+	}
+	
+	.proDuctSlider .slick-prev {
+		left: 0px;
+	}
+	
+	.strategyContent {
+		padding: 100px 15px 0;
+	}
+	
+	.teamTitleText {
+		font-size:18px;
+		line-height:24px;
+	}
+	
+	.press-wrapper {
+		padding: 0 15px 0;
+	}
+	
+	.pressTitle,
+	.press-wrapper .team-content h3 {
+		font-size:18px;
+		line-height:24px;
+		margin: 15px 0;
+	}
+	
+	.press-wrapper .team-content .pressDetails {
+		margin-bottom:25px;		
+	}
+	
+	.pressLink {
+		margin-bottom:75px;
+	}
+	
+	.InterestedItem {
+		margin: 30px 0;
+	}
+	
+	
+	
+	
+	
+    
+}
+/*===--End of Media max-width-640px--==*/
+
+
+
+
+
+
+@media (max-width:420px){
+	
+	
+	
+		
+}
+/*===--End of Media max-width-420px--==*/
+
+
+
+
+
+
+@media (max-width:340px){
+	
+	
+	.proDuctSlider {
+        margin-bottom: -90px;
+    }
+    
+    .contactForm .form-group img {
+        margin-right: 8%;
+    }
+    
+    .formInput {
+        width: 83%;
+    }
+	
+
+}
+/*===--End of Media max-width-340px--==*/

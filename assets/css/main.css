@@ -1,0 +1,1200 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*=================================	
+		font-family 
+==================================*/
+
+
+/*--------TisaPro--------*/
+
+@font-face {
+  font-family: 'TisaPro';
+  src: url('../fonts/TisaPro.eot') format('embedded-opentype'),
+	   url('../fonts/TisaPro.otf')  format('opentype'),
+	   url('../fonts/TisaPro.woff') format('woff'), 
+	   url('../fonts/TisaPro.ttf')  format('truetype'), 
+	   url('../fonts/TisaPro.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/*--------TisaPro-Black--------*/
+
+@font-face {
+  font-family: 'TisaPro-Black';
+  src: url('../fonts/TisaPro-Black.eot') format('embedded-opentype'), 
+	   url('../fonts/TisaPro-Black.otf')  format('opentype'),
+	   url('../fonts/TisaPro-Black.woff') format('woff'),
+	   url('../fonts/TisaPro-Black.ttf')  format('truetype'), 
+	   url('../fonts/TisaPro-Black.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*--------TisaPro-Bold--------*/
+
+@font-face {
+  font-family: 'TisaPro-Bold';
+  src: url('../fonts/TisaPro-Bold.eot') format('embedded-opentype'), 
+	   url('../fonts/TisaPro-Bold.otf')  format('opentype'),
+	   url('../fonts/TisaPro-Bold.woff') format('woff'), 
+	   url('../fonts/TisaPro-Bold.ttf')  format('truetype'),
+	   url('../fonts/TisaPro-Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*--------TisaPro-Light--------*/
+
+@font-face {
+  font-family: 'TisaPro-Light';
+  src: url('../fonts/TisaPro-Light.eot') format('embedded-opentype'), 
+	   url('../fonts/TisaPro-Light.otf')  format('opentype'),
+	   url('../fonts/TisaPro-Light.woff') format('woff'),
+	   url('../fonts/TisaPro-Light.ttf')  format('truetype'), 
+	   url('../fonts/TisaPro-Light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+/*--------TisaPro-Medi--------*/
+
+@font-face {
+  font-family: 'TisaPro-Medi';
+  src: url('../fonts/TisaPro-Medi.eot') format('embedded-opentype'),
+	   url('../fonts/TisaPro-Medi.otf')  format('opentype'),
+	   url('../fonts/TisaPro-Medi.woff') format('woff'),
+	   url('../fonts/TisaPro-Medi.ttf')  format('truetype'), 
+	   url('../fonts/TisaPro-Medi.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*--------TisaPro-Thin--------*/
+
+@font-face {
+  font-family: 'TisaPro-Thin';
+  src: url('../fonts/TisaPro-Thin.eot') format('embedded-opentype'),  
+	   url('../fonts/TisaPro-Thin.otf')  format('opentype'),
+	   url('../fonts/TisaPro-Thin.woff') format('woff'), 
+	   url('../fonts/TisaPro-Thin.ttf')  format('truetype'),
+	   url('../fonts/TisaPro-Thin.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/*--------TisaPro-Xbold--------*/
+
+@font-face {
+  font-family: 'TisaPro-Xbold';
+  src: url('../fonts/TisaPro-Xbold.eot') format('embedded-opentype'), 
+	   url('../fonts/TisaPro-Xbold.otf')  format('opentype'),
+	   url('../fonts/TisaPro-Xbold.woff') format('woff'),
+	   url('../fonts/TisaPro-Xbold.ttf')  format('truetype'),
+	   url('../fonts/TisaPro-Xbold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+/*--------proxima_novalight--------*/
+
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('../fonts/proxima_nova_light.woff2') format('woff2'),
+         url('../fonts/proxima_nova_light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*--------proxima_nova_rgregular--------*/
+
+
+@font-face {
+    font-family: 'proxima_nova_rgregular';
+    src: url('../fonts/proxima_nova_reg.woff2') format('woff2'),
+         url('../fonts/proxima_nova_reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*------------------------------------*\
+ 		Global style
+\*------------------------------------*/
+
+body {
+   font-family: 'TisaPro';
+   background:#fff;
+}
+
+
+h1, h2, h3, h4, h5, h6, p {
+	margin:0;
+}
+
+.block {
+	float:left;
+	width:100%;
+}
+
+.container {
+	max-width:940px;	
+}
+
+.primary-color {
+    color: #fff;
+}
+
+.eggBlue {
+    background: #00DDC4;
+}
+
+.christalle {
+    background: #BFA9D4;
+}
+
+.curious-blue {
+    background: #2AA1D4;
+}
+
+.shamrock {
+    background: #20C5B0;
+}
+
+
+/*.modal.fade .modal-dialog {   
+    opacity: 0;
+	-webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}*/
+
+
+.awesomwModalMenu.modal.fade .modal-dialog {
+	-webkit-transition: -webkit-transform .3s ease-out;
+	-o-transition: -o-transform .3s ease-out;
+	transition: transform .3s ease-out;
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	-o-transform: translate(0, 0);
+	transform: translate(0, 0)
+}
+
+
+input:focus, 
+select:focus, 
+textarea:focus, 
+button:focus {
+	outline:none !important;	
+}
+
+.specializeLink li a:hover,
+.menu li a:hover,
+.socialBar li a:hover {
+	color:#818181;	
+}
+
+
+
+
+/*------------------------------------*\
+    header style
+\*------------------------------------*/
+
+header {
+    padding: 12px 15px 0;
+    background: #000;
+    height: 960px;
+}
+
+.logo-feel {
+    background: #cc0000;
+    border-radius: 3px;
+    display: inline-block;
+    height: 55px;
+    padding: 20px;
+    width: 177px;
+    margin-left: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.teamHeader .logo-feel {
+    margin-left: 0;
+}
+
+.logo-feel img {
+    max-width: 71px;
+}
+
+.menuContent .logo-feel {
+    margin: 0;
+}
+
+.menuIconRight.menuIconFixed {
+    position:fixed;
+	right:40px;
+	top:30px;
+    z-index: 100;
+}
+
+.modal-open .menuIconRight.menuIconFixed {
+	right:55px;	
+}
+
+/*.menuIconRight {
+    display: inline-block;
+    margin-top: 18px;
+    position: relative;
+    z-index: 1;
+}*/
+
+.menuIconRight:focus {
+    outline: none;
+}
+
+.menuIconRight img {
+    max-width: 24px;
+}
+
+.weSpecialize {
+    font: normal 24px/32px 'TisaPro-Light';
+    margin: 250px 35px 115px;
+    max-width: 405px;
+}
+
+.specializeLink {
+    margin: 0 0 242px;
+    padding: 0;
+    list-style: none;
+}
+
+.specializeLink li {
+    margin-bottom: 15px;
+}
+
+.specializeLink li a {
+    color: #fff;
+    font: normal 24px/32px 'TisaPro-Light';
+    display: inline-block;
+    text-decoration: none;
+}
+
+.specializeLink li a img {
+    display: inline-block;
+    max-width: 16px;
+    margin-right: 20px;
+    margin-top: -6px;
+}
+
+.scrollDown {
+    margin-bottom: 25px;
+	padding-right:25px;
+}
+
+.scrollDown a {
+    display: inline-block;
+}
+
+.scrollDown a img {
+    max-width: 24px;
+}
+
+.scrollDown a .faa-float.animated,
+.scrollDown a .faa-float.animated-hover:hover,
+.scrollDown a .faa-parent.animated-hover:hover .faa-float {
+    animation: 1s linear 0s normal none infinite running float;
+}
+
+
+
+/*------------------------------------*\
+    PopUp menu style
+\*------------------------------------*/
+
+
+.menuContent {
+    height: 100%;
+    padding: 12px 15px 0;
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    overflow-y: scroll;
+}
+
+.awesomwModalMenu .modal-dialog {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+
+.allModal .awesomwModalMenu {
+    padding: 0 !important;
+}
+
+.awesomwModalMenu button.close {
+    opacity: 1;
+}
+
+.awesomwModalMenu button.close {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.awesomwModalMenu button.close img {
+    max-width: 18px;
+    cursor: pointer;
+}
+
+.menu {
+    margin: 105px 0 50px;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    margin-bottom: 12px;
+}
+ 
+.menu li a {
+    color: #fff;
+    font: normal 32px/50px 'proxima_novalight';
+    text-decoration: none;
+}
+
+.loFt {
+    font: normal 24px/40px 'TisaPro-Light';
+    margin-bottom: 10px;
+}
+
+.awesomeSchool   {
+    font: normal 24px/40px 'TisaPro-Light';
+}
+
+.socialBar {
+    margin: 222px 0 100px;
+    padding: 0;
+    list-style: none;
+}
+
+.socialBar li {
+    margin-bottom: 5px;
+}
+
+.socialBar li a {
+    color: #fff;
+    font: normal 18px/30px 'TisaPro-Light';
+    display: inline-block;
+    text-decoration: none;
+    
+}
+
+.socialBar li a img {
+    display: inline-block;
+    max-width: 8px;
+    margin-right: 16px;
+    margin-top: -4px;
+}
+
+
+/*------------------------------------*\
+    workSliderContent style
+\*------------------------------------*/
+
+.workSliderContent {
+    
+}
+
+.workSliderWrap.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+.workSliderWrap .workSliderItem {
+	padding-top:90px;	
+}
+
+/*.workSliderTop {
+    min-height: 165px;
+    padding-top: 12px;
+}*/
+
+.logo-outline {
+    border: 1px solid #fff;
+    border-radius: 2px;
+    display: inline-block;
+    height: 55px;
+    margin-left: 15px;
+    padding: 20px;
+    width: 177px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo-outline img {
+    max-width: 71px;
+}
+
+.workSliderText {
+    font: normal 24px/32px 'TisaPro-Light';
+    margin-left: 35px;
+    max-width: 430px;
+    margin-bottom: 65px;
+}
+
+.workSliderImg img {
+    display: inline-block !important;
+}
+
+.workSliderWrap .scrollDown {
+    margin-top: -45px;
+    min-height: 68px;
+}
+
+.workSliderWrap .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    width: 150px;
+}
+
+.workSliderWrap .slick-dots li button:before {
+    color: #fff;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    opacity: .7;
+    font-size: 4px;
+}
+
+.workSliderWrap .slick-dots li.slick-active button:before {
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 50%;
+    color: #ffffff;
+    height: 12px;
+    line-height: 13px;
+    opacity: 0.7;
+    width: 12px;
+}
+
+/*------------------------------------*\
+    getResultSlider style
+\*------------------------------------*/
+
+.getResultSlider {
+    
+}
+
+.getResultSliderWrap.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+.getResultSliderItem.slick-slide {
+    height: 960px;
+} 
+
+.getResultSliderItem.theLoftSoho {
+    background: url(../images/slider-img7.png) no-repeat scroll left top / cover;
+}
+
+.getResultSliderText {
+    color: #383838;
+    font: normal 24px/32px 'TisaPro';
+    max-width: 935px;
+    margin-top: 125px;
+}
+
+
+.getResultSliderItem.theLoftSoho .getResultSliderText {
+    color: #fff;
+}
+
+.getResultSliderImgWrap {
+    margin-top: 95px;
+    position: relative;
+}
+
+.getResultSliderImgWrap.videoWrap {
+    width: 620px;
+    height: 349px;
+}
+
+.getResultSliderImgWrap.videoWrap1 {
+    background: url(../images/slider-img8.png) no-repeat scroll top left / cover;
+}
+
+.getResultSliderImgWrap.videoWrap2 {
+    background: url(../images/slider-img6.png) no-repeat scroll top left / cover;
+}
+
+.getResultSliderImgWrap.videoWrap img {
+    position: absolute;
+    top: 46%;
+    left: 39px;
+    max-width: 24px;
+}
+
+.getResultSlider .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    width: 200px;
+}
+
+.getResultSlider .slick-dots li button:before {
+    color: #000;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    opacity: .7;
+    font-size: 4px;
+}
+
+.getResultSlider .slick-dots li.slick-active button:before {
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 50%;
+    color: #000;
+    height: 12px;
+    line-height: 13px;
+    opacity: 0.7;
+    width: 12px;
+}
+
+
+
+/*------------------------------------*\
+    projectSlider style
+\*------------------------------------*/
+
+.projectSlider {
+    background: #bdbdbd;
+    min-height: 960px;
+    position: relative;
+}
+
+.productSliderText {
+    font: normal 24px/32px 'TisaPro-Light';
+    margin-bottom: 113px;
+    margin-top: 127px;
+    max-width: 400px;
+}
+
+.productItem {
+    min-height: 170px;
+}
+
+.productItem img {
+    max-width: 290px;
+}
+
+.projectSliderWrap.slick-dotted.slick-slider {
+    margin-bottom: 0;
+    position: inherit;
+}
+
+
+.projectSliderWrap .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 130px;
+}
+
+.projectSliderWrap .slick-dots li button:before {
+    color: #fff;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    opacity: .7;
+    font-size: 4px;
+}
+
+.projectSliderWrap .slick-dots li.slick-active button:before {
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 50%;
+    color: #fff;
+    height: 12px;
+    line-height: 13px;
+    opacity: 0.7;
+    width: 12px;
+}
+
+
+
+/*------------------------------------*\
+    teamWrap style
+\*------------------------------------*/
+
+
+.teamWrap {
+    
+}
+
+.teamLeft {
+    background: #333;
+    padding-left: 19%;
+}
+
+.teamRight {
+    background: #c00;
+    padding-left: 13%;
+}
+
+.teamBody {
+    min-height: 480px;
+}
+
+.teamBodyText {
+    font: normal 24px/32px 'TisaPro-Light';
+    margin-bottom: 90px;
+    margin-top: 130px;
+    max-width: 285px;
+    min-height: 115px;
+}
+
+.teamLink a {
+    display: inline-block;
+}
+
+.teamLink img {
+    max-width: 23px;
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    team-wrapper style
+\*------------------------------------*/
+
+.teamHeader {
+    height: inherit;
+    background: #fff;
+    margin-bottom: 135px;
+}
+
+.team-wrapper {
+	padding-bottom:90px;	
+}
+
+.team-wrapper .container {
+	max-width: 940px;
+}
+
+.teamTitleText {
+	font: normal 24px/32px "TisaPro";
+	color: #393939;
+	max-width:440px;
+	min-height:340px;
+}
+
+.teamTitleText.custHeightStyle {
+	min-height:initial;
+}
+
+.teamTitleText.custWidthStyle {
+	max-width:initial;
+}
+
+.team-wrapper .team-content h3 {
+	font: normal 24px/32px 'TisaPro-Light';
+	color: #393939;
+	margin-bottom: 36px;
+}
+
+.team-wrapper .team-content h3,
+.productTitle,
+.teamBodyText,
+.workSliderText,
+.getResultSliderText,
+.productSliderText,
+.pressTitle,
+.press-wrapper .team-content h3,
+.team-content.startup h4 {
+	font: normal 24px/32px 'TisaPro-Light';
+}
+
+.team-wrapper .team-content h3 span,
+.productTitle span,
+.teamBodyText span,
+.workSliderText span,
+.getResultSliderText span,
+.productSliderText span,
+.pressTitle span,
+.press-wrapper .team-content h3 span,
+.team-content.startup h4 span {
+	font-variant:small-caps;	
+}
+
+.team-wrapper .team-content p {
+	font-family: 'proxima_nova_rgregular';
+	font-size: 16px;
+	line-height: 21px;
+	color: #383838;
+	max-width: 460px;
+}
+
+.team-content .team-img {
+	float: left;
+    margin:61px 0 160px;
+    width: 100%;
+}
+
+.team-content .team-img .team-social a i {
+	font-size: 36px;
+	color: #393939;
+}
+
+.team-content .team-img .team-social a:hover i {
+	color: #0077b5;
+}
+
+
+
+
+
+/*------------------------------------*\
+    productHeader style
+\*------------------------------------*/
+
+.productHeader {
+    background: #bfa9d4 url("../images/slider-img1.png") no-repeat scroll right 108px top -130px / 870px auto;
+    height: inherit;
+}
+
+
+.proDuctBg {
+    margin-top: -206px;
+}
+
+.proDuctBg img {
+    display: inline-block;
+}
+
+.productTitle {
+    font: normal 24px/32px "TisaPro-Light";
+    margin-bottom: 33px;
+    margin-top: 690px;
+    max-width: 840px;
+}
+
+.productDetails {
+    max-width: 460px;
+    font: normal 16px/21px 'proxima_novalight';
+    margin-bottom: 155px;
+}
+
+.proDuctSlider {
+    margin-bottom: -107px;
+}
+
+.proDuctSliderItem img {
+    margin: 0 auto;
+}
+
+.proDuctSlider .slick-prev:before {
+    content: "";
+}
+
+.proDuctSlider .slick-next:before {
+    content: "";
+}
+
+.proDuctSlider .slick-prev {
+    background: url(../images/prev-icon.png) no-repeat scroll center center / 11px auto;
+	left:-100px;
+}
+
+.proDuctSlider .slick-next {
+    background: url(../images/next-icon.png) no-repeat scroll center center / 11px auto;
+	right:-100px;
+}
+
+.proDuctSlider .slick-prev:hover,
+.proDuctSlider .slick-prev:focus {
+    background: url(../images/prev-icon.png) no-repeat scroll center center / 11px auto;
+}
+
+
+.proDuctSlider .slick-next:hover,
+.proDuctSlider .slick-next:focus {
+    background: url(../images/next-icon.png) no-repeat scroll center center / 11px auto;
+}
+
+
+/*------------------------------------*\
+    strategyContent style
+\*------------------------------------*/
+
+.strategyContent {
+    padding: 210px 0 50px;
+}
+
+.strategyPara {
+    color: #393939;
+    font: normal 16px/21px 'proxima_novalight';
+    max-width: 455px;
+    margin-bottom: 100px;
+}
+
+.strategyTitle {
+    color: #393939;
+    font: normal 24px/32px 'TisaPro-Light';
+}
+
+.strategyContent hr {
+    margin: 10px 0;
+}
+
+.strategyList {
+    margin: 23px 0 72px;
+    padding: 0;
+    list-style: none;
+}
+
+.strategyList li {
+    color: #393939;
+    font: normal 16px/30px 'TisaPro-Light';
+}
+
+
+/*------------------------------------*\
+    productFooter style
+\*------------------------------------*/
+
+
+
+.productFooter .start {
+    background: #666;
+}
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    press style
+\*------------------------------------*/
+
+.press-wrapper {
+	padding:0 15px 128px;
+}
+
+.pressLogo {
+    margin-bottom: 7px;
+}
+
+.pressLogo.press-logo1 img {
+    max-width: 17px;
+}
+
+.pressLogo.press-logo2 img {
+    max-width: 66px;
+}
+
+.pressLogo.press-logo3 img {
+    max-width: 95px;
+}
+
+.pressLogo.press-logo4 img {
+    max-width: 113px;
+}
+
+.pressLogo.press-logo5 img {
+    max-width: 41px;
+}
+
+.pressTitle {
+    color: #393939;
+    font: normal 48px/60px 'proxima_nova_rgregular';
+    margin-bottom: 28px;
+}
+
+.press-wrapper .team-content .pressDetails {
+    color: #393939;
+    font: normal 16px/21px 'TisaPro-Light';
+    margin-bottom: 50px;
+}
+
+.pressLink {
+    margin-bottom: 115px;
+}
+
+.pressLink a {
+    display: inline-block;
+}
+
+.pressLink img {
+    max-width: 16px;
+}
+
+.press-wrapper .team-content h3 {
+    margin:35px 0 30px;
+	font: normal 24px/32px 'TisaPro-Light';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    Contact style
+\*------------------------------------*/
+
+.contact-wrapper {
+    padding:0 15px 120px;
+}
+
+.team-content.startup {
+    margin-bottom: 55px;
+}
+
+.team-content.startup h4 {
+    margin-bottom: 0;
+}
+
+.contactForm .form-group {
+    margin: 0 0 30px;
+}
+
+.contactForm .form-group img {
+    float: left;
+    margin-right: 4%;
+    max-width: 21px;
+    width: 6%;
+}
+
+.form-group.interested {
+	border-bottom:1px solid #E8E8E8;
+}
+
+.form-group input,
+.form-group textarea {
+	border:none;
+	border-bottom:1px solid #E8E8E8;
+	padding:16px 40px;
+}
+
+.form-group textarea {
+	min-height:167px;
+	
+}
+
+.form-group input:focus,
+.form-group textarea:focus  {
+	border-bottom:1px solid #B30505;
+}
+
+.form-group.timeFrame input {
+	background:rgba(0, 0, 0, 0) url("../images/time-icon.png") no-repeat scroll left 15px / 24px auto;
+}
+
+.form-group.budget input {
+	background:rgba(0, 0, 0, 0) url("../images/budget-icon.png") no-repeat scroll left 15px / 24px auto;
+}
+
+.form-group.weblink input {
+	background:rgba(0, 0, 0, 0) url("../images/weblink-icon.png") no-repeat scroll left 15px / 22px auto;
+}
+
+.form-group.phoneNumber input {
+	background:rgba(0, 0, 0, 0) url("../images/phone-icon.png") no-repeat scroll left 15px / 23px auto;
+}
+
+.form-group.mail input {
+	background:rgba(0, 0, 0, 0) url("../images/mail-icon.png") no-repeat scroll left 15px / 24px auto;
+}
+
+.form-group.name input {
+	background:rgba(0, 0, 0, 0) url("../images/name-icon.png") no-repeat scroll left 15px / 22px auto;
+}
+
+.form-group.hear input {
+	background:rgba(0, 0, 0, 0) url("../images/hear-icon.png") no-repeat scroll left 15px / 24px auto;
+}
+
+.form-group.elevetor textarea {
+	background:rgba(0, 0, 0, 0) url("../images/idea-icon.png") no-repeat scroll left 12px / 24px auto;
+}
+
+.form-group p,
+.form-group input,
+.form-group textarea {
+    font: normal 18px/21px 'proxima_nova_rgregular';
+    width: 100%;
+}
+
+.form-group p {
+    color: #393939;
+}
+
+.InterestedItem {
+    margin: 30px 0 58px;
+    padding: 0;
+    list-style: none;
+}
+
+.InterestedItem li {
+    margin-bottom: 10px;
+}
+
+.InterestedItem li:last-child {
+    margin-bottom: 0;
+}
+
+.InterestedItem li input[type="radio"] {
+    display: none;
+}
+
+.InterestedItem li label {
+    color: #9c9c9c;
+    font: normal 16px/18px 'proxima_nova_rgregular';
+    position: relative;
+    padding-left: 41px;
+    margin-bottom: 0;
+}
+
+.InterestedItem li label:before {
+    position: absolute;
+    content: "\f10c";
+    top: 0;
+    left: 0;
+    font-family: "fontawesome";
+    font-size: 16px;
+    color: #9c9c9c;
+    cursor: pointer;
+}
+
+.InterestedItem li input[type="radio"]:checked + label {
+    color: #393939;
+}
+
+.InterestedItem li input[type="radio"]:checked + label:before {
+    content: "\f192";
+    color: #B30505;
+} 
+
+.formInput textarea {
+    width: 100%;
+    min-height: 114px;
+}
+
+.contactForm .form-group.sendBtn {
+	margin:5px 0 0;	
+}
+
+.contactForm .form-group.sendBtn .btn {
+    color: #B30505;
+    font: normal 24px/30px 'proxima_nova_rgregular';
+    background: none;
+	border:none;
+	padding:0;
+}
+
+.contactForm .form-group.sendBtn .btn img {
+	max-width:21px;
+	margin:5px 18px 0 0;
+	width:inherit;
+	
+}
+
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+    contactImgWrap style
+\*------------------------------------*/
+
+.contactImgWrap {
+    
+}
+
+
+.contactImgWrap .slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+.contactImgWrap .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 160px;
+}
+
+.contactImgWrap .slick-dots li button:before {
+    color: #fff;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+    opacity: .7;
+    font-size: 4px;
+}
+
+.contactImgWrap .slick-dots li.slick-active button:before {
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 50%;
+    color: #fff;
+    height: 12px;
+    line-height: 13px;
+    opacity: 0.7;
+    width: 12px;
+}
+
+
+
+
+
+
+
